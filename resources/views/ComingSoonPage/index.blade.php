@@ -46,9 +46,9 @@
 
     <!--  -->
     <div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
-        <h5 id="navbrand">
+        <h4 id="navbrand">
             Chikuso.Store
-        </h5>
+        </h4>
         <h3 class="l1-txt2 txt-center p-b-55 respon1">
             Coming Soon
         </h3>
@@ -61,19 +61,16 @@
     </div>
     
     <div class="flex-sb-m flex-w w-full">
-        <!--  -->
+			<!--  -->
         <div class="flex-w flex-c-m m-t-10 m-b-10">
-            <a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
-                <i class="fa fa-instagram"></i>
-            </a>
-
-            <a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
+            <a href="https://api.whatsapp.com/send?phone=6289677533236" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
                 <i class="fa fa-whatsapp"></i>
             </a>
 
-            <a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
-                <i class="fa fa-mail-"></i>
+            <a href="http://instagram.com/chikuso.store" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
+                <i class="fa fa-instagram"></i>
             </a>
+
         </div>
 
         <form class="contact100-form validate-form m-t-10 m-b-10">
