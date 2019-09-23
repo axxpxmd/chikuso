@@ -26,7 +26,6 @@
 		#navbrand{
 			font-family: Pacifico, cursive;
 			color: white;
-			
 		}
 	</style>
 </head>

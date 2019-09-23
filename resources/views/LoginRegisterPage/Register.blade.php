@@ -1,5 +1,11 @@
 @extends('LoginRegisterPage.masterPage')
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <section class="signup">
     <div class="container">
         <div class="signup-content">
