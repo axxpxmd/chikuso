@@ -7,7 +7,6 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 	
-	{{-- <link rel="icon" href="{{ asset('icon/shopping-cart.png') }}" type="image/x-icon"> --}}
 	<link rel="shortcut icon" href="icon/shopping-cart.png" type="image/x-icon">
 	<title>Chikuso Store</title>
 	
