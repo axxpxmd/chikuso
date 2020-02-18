@@ -1,100 +1,87 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('comingsoonPage.app')
+@section('content')
+    <div class="simpleslide100">
+        <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/x6.jpg');"></div>
+        <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/x5.jfif');"></div>
+        <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/x4.jfif');"></div>
+        {{-- <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/bg04.jpg');"></div> --}}
+    </div>
 
-        <title>Laravel</title>
+    <div class="flex-col-c-sb size1 overlay1 p-l-75 p-r-75 p-t-20 p-b-40 p-lr-15-sm">
+        <!--  -->
+        <div class="w-full flex-w flex-sb-m">
+            <div class="wrappic1 m-r-30 m-t-10 m-b-10">
+                <h1 class="navbrand">Chikuso</h1>
+            </div>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+            <div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
+                <div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+                    <span class="l1-txt1 wsize1 days">35</span>
+                    <span class="m1-txt1 p-b-2">Days</span>
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+                    <span class="l1-txt1 wsize1 hours">17</span>
+                    <span class="m1-txt1 p-b-2">Hr</span>
+                </div>
+
+                <div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+                    <span class="l1-txt1 wsize1 minutes">50</span>
+                    <span class="m1-txt1 p-b-2">Min</span>
+                </div>
+
+                <div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+                    <span class="l1-txt1 wsize1 seconds">39</span>
+                    <span class="m1-txt1 p-b-2">Sec</span>
                 </div>
             </div>
+
+            <div class="m-t-10 m-b-10">
+                <a href="/login" class="size2 s1-txt1 flex-c-m how-btn1 trans-04">
+                    Log In
+                </a>
+            </div>
         </div>
-    </body>
-</html>
+
+        <!--  -->
+        <div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
+            <h4 class="navbrand">
+                Chikuso.Store
+            </h4>
+            <h3 class="l1-txt2 txt-center p-b-55 respon1">
+                Coming Soon
+            </h3>
+
+            <div>
+                <button class="how-btn-play1 flex-c-m">
+                    <i class="zmdi zmdi-play"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="flex-sb-m flex-w w-full">
+            <!--  -->
+            <div class="flex-w flex-c-m m-t-10 m-b-10">
+                <a href="https://api.whatsapp.com/send?phone=6289677533236" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
+
+                <a href="http://instagram.com/chikuso.store" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
+                    <i class="fa fa-instagram"></i>
+                </a>
+
+            </div>
+
+            <form class="contact100-form validate-form m-t-10 m-b-10">
+                <div class="wrap-input100 validate-input m-lr-auto-lg" data-validate = "Email is required: ex@abc.xyz">
+                    <input class="s2-txt1 placeholder0 input100 trans-04" type="text" name="email" placeholder="Email Address">
+
+                    <button class="flex-c-m ab-t-r size4 s1-txt1 hov1">
+                        <i class="zmdi zmdi-long-arrow-right fs-16 cl1 trans-04"></i>
+                    </button>
+                </div>		
+            </form>
+        </div>
+    </div>
+@endsection
+
