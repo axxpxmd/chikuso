@@ -1,10 +1,10 @@
-@extends('comingsoonPage.app')
+@extends('comingsoon.app')
 @section('content')
     <div class="simpleslide100">
-        <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/x6.jpg');"></div>
-        <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/x5.jfif');"></div>
-        <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/x4.jfif');"></div>
-        {{-- <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/bg04.jpg');"></div> --}}
+        <div class="simpleslide100-item bg-img1" style="background-image: url('images/shoes3.jfif');"></div>
+        <div class="simpleslide100-item bg-img1" style="background-image: url('images/shoes2.jfif');"></div>
+        <div class="simpleslide100-item bg-img1" style="background-image: url('images/shoes1.jfif');"></div>
+        <div class="simpleslide100-item bg-img1" style="background-image: url('images/shoes4.jfif');"></div>
     </div>
 
     <div class="flex-col-c-sb size1 overlay1 p-l-75 p-r-75 p-t-20 p-b-40 p-lr-15-sm">
