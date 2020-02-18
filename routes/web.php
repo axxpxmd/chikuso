@@ -12,10 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('comingsoonPage.index');
+    return view('welcome');
 });
-
-// Route::resource('/', 'ComingSoonController');
-
-// Route::resource('/login', 'LoginController');
-// Route::resource('/register', 'RegisterController');
