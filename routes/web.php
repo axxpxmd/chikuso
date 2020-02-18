@@ -11,11 +11,11 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('comingsoonPage.index');
+});
 
-Route::resource('/', 'ComingSoonController');
+// Route::resource('/', 'ComingSoonController');
 
-Route::resource('/login', 'LoginController');
-Route::resource('/register', 'RegisterController');
+// Route::resource('/login', 'LoginController');
+// Route::resource('/register', 'RegisterController');
