@@ -8,6 +8,6 @@ class ComingSoonController extends Controller
 {
     public function index()
     {
-        return view('ComingSoonPage.index');
+        return view('comingsoonPage.index');
     }
 }
