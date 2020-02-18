@@ -1,4 +1,4 @@
-@extends('comingsoonPage.app')
+@extends('comingsoon.app')
 @section('content')
     <div class="simpleslide100">
         <div class="simpleslide100-item bg-img1" style="background-image: url('comingsoon/images/x6.jpg');"></div>
