@@ -46,7 +46,7 @@
         <!--  -->
         <div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
             <h4 class="navbrand">
-                Chikuso.Store
+                Chikuso.store
             </h4>
             <h3 class="l1-txt2 txt-center p-b-55 respon1">
                 Coming Soon
